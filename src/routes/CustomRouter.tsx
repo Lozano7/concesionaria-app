@@ -1,5 +1,4 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import AccesoriesScreen from '../components/customScreen_components/AccesoriesScreen';
 import ColorsScreen from '../components/customScreen_components/ColorsScreen';
 import PackagesScreen from '../components/customScreen_components/PackagesScreen';
 import PowerScreen from '../components/customScreen_components/PowerScreen';
