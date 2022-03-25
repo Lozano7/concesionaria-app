@@ -46,9 +46,9 @@ const ResumenScreen = () => {
   };
 
   return (
-    <div className='w-full my-7'>
-      <div className='w-[80vw] sm:w-[40vw] lg:w-[30vw] grid grid-cols-1 mx-auto'>
-        <div className='rounded overflow-hidden shadow-lg glass-card'>
+    <div className='w-full mt-7'>
+      <div className='w-[80vw] sm:w-[40vw] lg:w-[30vw] grid grid-cols-1 mx-auto mg-3'>
+        <div className='rounded overflow-hidden shadow-lg glass-card mb-7'>
           <img
             className='w-full object-cover object-top'
             src={basicInfo.imgURL}
