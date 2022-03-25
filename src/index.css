@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(29, 29, 31, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.swal2-popup {
+  font-family: 'Quicksand', 'sans-serif';
+}
+.swal2-confirm {
+  margin: 0;
+  background-color: #fff !important;
+  color: black !important;
+  border: 2px solid #334155 !important;
+}
+.bg-white-blue {
+  background-image: linear-gradient(
+    to left bottom,
+    #ffffff,
+    #cbcbd1,
+    #9799a6,
+    #656b7c,
+    #334155
+  );
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(29, 29, 31, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+input[type='radio'] + label span {
+  transition: background 0.2s, transform 0.2s;
+}
+
+input[type='radio'] + label span:hover,
+input[type='radio'] + label:hover span {
+  transform: scale(1.2);
+}
+
+input[type='radio']:checked + label span {
+  background-color: #f04;
+  box-shadow: 0px 0px 0px 2px white inset;
+}
+
+input[type='radio']:checked + label {
+  color: #f04;
+}
+input[type='checkbox'] + label span {
+  transition: background 0.2s, transform 0.2s;
+}
+
+input[type='checkbox'] + label span:hover,
+input[type='checkbox'] + label:hover span {
+  transform: scale(1.2);
+}
+
+input[type='checkbox']:checked + label span {
+  background-color: #f04;
+  box-shadow: 0px 0px 0px 2px white inset;
+}
+
+input[type='checkbox']:checked + label {
+  color: #f04;
+}
+
+.StripeCheckout {
+  background: transparent !important;
+  padding: 0 !important;
+}
+.StripeCheckout span {
+  background: transparent !important;
+  border: 2px solid #334155 !important;
+  box-shadow: none !important;
+  color: #000 !important;
+  font-family: 'Quicksand', 'sans-serif' !important;
+  line-height: 25px !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
